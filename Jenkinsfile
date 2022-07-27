@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''cd ./spring-*
+        sh '''pwd
 
-./mvnw package'''
+cd /'''
       }
     }
 
