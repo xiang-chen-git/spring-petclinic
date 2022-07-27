@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'pwd'
+        sh '''cd ./spring-petclinic
+
+./mvnw package'''
       }
     }
 
