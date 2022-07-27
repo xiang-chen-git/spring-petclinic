@@ -3,9 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''pwd
-
-cd /'''
+        sh '''cd /var/lib/jenkins/workspace/spring-petclinic-1_main
+ls'''
       }
     }
 
